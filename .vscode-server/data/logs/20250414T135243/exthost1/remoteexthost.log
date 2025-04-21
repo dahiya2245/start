@@ -1,0 +1,16 @@
+2025-04-14 13:52:45.531 [info] Extension host with pid 1333 started
+2025-04-14 13:52:45.558 [info] Lock '/home/shubh/.vscode-server/data/User/workspaceStorage/5867e216392f7bb82302c6a60638c213/vscode.lock': Lock acquired.
+2025-04-14 13:52:45.610 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-14 13:52:45.680 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-14 13:52:45.735 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-14 13:52:45.736 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-14 13:52:45.992 [info] Eager extensions activated
+2025-04-14 13:52:45.992 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-14 13:52:45.993 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-14 13:52:45.993 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-04-14 13:52:54.338 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-04-14 13:56:17.713 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2025-04-14 13:57:43.711 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-04-14 18:26:44.377 [info] Extension host terminating: received terminate message from renderer
+2025-04-14 18:26:44.379 [info] Lock '/home/shubh/.vscode-server/data/User/workspaceStorage/5867e216392f7bb82302c6a60638c213/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-04-14 18:26:44.530 [info] Extension host with pid 1333 exiting with code 0

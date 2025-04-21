@@ -1,0 +1,25 @@
+2025-04-20 21:25:04.053 [info] 
+
+
+
+
+2025-04-20 21:25:04.069 [info] Extension host agent started.
+2025-04-20 21:25:04.297 [info] [127.0.0.1][81c52049][ManagementConnection] New connection established.
+2025-04-20 21:25:04.573 [info] [127.0.0.1][8be00792][ExtensionHostConnection] New connection established.
+2025-04-20 21:25:05.024 [info] [127.0.0.1][8be00792][ExtensionHostConnection] <823> Launched Extension Host Process.
+2025-04-20 22:14:05.539 [info] [127.0.0.1][8be00792][ExtensionHostConnection] The client has reconnected.
+2025-04-20 22:14:05.852 [info] [127.0.0.1][81c52049][ManagementConnection] The client has reconnected.
+2025-04-20 22:17:00.293 [info] [127.0.0.1][81c52049][ManagementConnection] The client has reconnected.
+2025-04-20 22:17:00.828 [info] [127.0.0.1][8be00792][ExtensionHostConnection] The client has reconnected.
+2025-04-20 23:27:13.977 [info] [127.0.0.1][8be00792][ExtensionHostConnection] The client has reconnected.
+2025-04-20 23:27:14.141 [info] [127.0.0.1][81c52049][ManagementConnection] The client has reconnected.
+2025-04-20 23:28:30.253 [info] [127.0.0.1][81c52049][ManagementConnection] The client has reconnected.
+2025-04-20 23:28:30.256 [info] [127.0.0.1][8be00792][ExtensionHostConnection] The client has reconnected.
+2025-04-21 11:27:35.482 [info] [127.0.0.1][81c52049][ManagementConnection] The client has reconnected.
+2025-04-21 11:27:35.649 [info] [127.0.0.1][8be00792][ExtensionHostConnection] The client has reconnected.
+2025-04-21 13:33:29.500 [info] [127.0.0.1][8be00792][ExtensionHostConnection] The client has reconnected.
+2025-04-21 13:33:29.688 [info] [127.0.0.1][81c52049][ManagementConnection] The client has reconnected.
+2025-04-21 14:29:05.273 [info] [127.0.0.1][81c52049][ManagementConnection] The client has reconnected.
+2025-04-21 14:29:05.278 [info] [127.0.0.1][8be00792][ExtensionHostConnection] The client has reconnected.
+2025-04-21 14:29:44.145 [info] [127.0.0.1][81c52049][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-21 14:29:44.449 [info] [127.0.0.1][8be00792][ExtensionHostConnection] <823> Extension Host Process exited with code: 0, signal: null.

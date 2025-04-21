@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sum App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.8.4/axios.min.js"></script>
+    <script>
+        function sendreq() {
+            axios.post("http://localhost:3000/sum", {
+                a: document.getElementById("a").value,
+                b: document.getElementById("b").value
+            })
+            .then(function(response) {
+                document.getElementById("result").innerText = "Answer: " + response.data.answer;
+            })
+            .catch(function(error) {
+                console.error("Error:", error);
+            });
+        }
+    </script>
+</head>
+<body>
+    <input id="a" type="text" placeholder="first">
+    <input id="b" type="text" placeholder="second">
+    <button onclick="sendreq()">sum</button>
+    <p id="result"></p>
+</body>
+</html>

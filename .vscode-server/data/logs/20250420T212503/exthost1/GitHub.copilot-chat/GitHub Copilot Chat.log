@@ -1,0 +1,109 @@
+2025-04-20 21:25:08.933 [info] Can't use the Electron fetcher in this environment.
+2025-04-20 21:25:08.933 [info] Using the Node fetch fetcher.
+2025-04-20 21:25:08.933 [info] Initializing Git extension service.
+2025-04-20 21:25:08.933 [info] Successfully activated the vscode.git extension.
+2025-04-20 21:25:08.933 [info] Enablement state of the vscode.git extension: true.
+2025-04-20 21:25:08.933 [info] Successfully registered Git commit message provider.
+2025-04-20 21:25:09.640 [info] Logged in as NSVPavan
+2025-04-20 21:25:10.894 [info] Got Copilot token for NSVPavan
+2025-04-20 21:25:11.308 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-20 21:25:11.308 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-04-20 21:25:11.323 [info] Registering default platform agent...
+2025-04-20 21:25:12.334 [info] Fetched model metadata in 1431ms 277ba96b-ba68-4eea-8679-38ad7577c69a
+2025-04-20 21:25:12.505 [info] activationBlocker from 'languageModelAccess' took for 2899ms
+2025-04-20 21:40:15.020 [info] Fetched model metadata in 1456ms a968b086-9910-462b-aef6-fb3c2f33b00a
+2025-04-20 21:55:15.501 [info] Logged in as NSVPavan
+2025-04-20 21:55:16.761 [info] Got Copilot token for NSVPavan
+2025-04-20 21:55:17.103 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-20 22:22:21.045 [info] Logged in as NSVPavan
+2025-04-20 22:22:31.656 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-20 22:22:31.656 [error] TypeError: fetch failed
+	at node:internal/deps/undici/undici:13502:13
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async hM._fetch (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:778:25942)
+	at async lT.fetchCopilotToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:50795)
+	at async lT.authFromGitHubToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:48932)
+	at async lT._auth (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:54615)
+	at async lT._authShowWarnings (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:54795)
+	at async lT.getCopilotToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:54029)
+	at async U5.getCopilotToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:423:3590)
+	at async Jk._getAuthSession (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:479:3082)
+	at async Object.o [as task] (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:479:738)
+	at async kp._processQueue (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:474:3192971)
+  ConnectTimeoutError: Connect Timeout Error (attempted address: 172.31.2.4:8080, timeout: 10000ms)
+  	at onConnectTimeout (/home/shubh/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/node_modules/undici/lib/core/connect.js:237:24)
+  	at Immediate._onImmediate (/home/shubh/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/node_modules/undici/lib/core/connect.js:206:11)
+  	at process.processImmediate (node:internal/timers:483:21)
+2025-04-20 22:22:32.153 [info] Logged in as NSVPavan
+2025-04-20 22:22:42.709 [info] copilot token chat_enabled: undefined, sku: 
+2025-04-20 22:22:43.024 [info] Logged in as NSVPavan
+2025-04-20 22:22:53.535 [error] GitHub Copilot could not connect to server. Extension activation failed: "fetch failed"
+2025-04-20 22:22:53.535 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-20 22:22:53.535 [error] TypeError: fetch failed
+	at node:internal/deps/undici/undici:13502:13
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async hM._fetch (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:778:25942)
+	at async lT.fetchCopilotToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:50795)
+	at async lT.authFromGitHubToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:48932)
+	at async lT._auth (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:54615)
+  ConnectTimeoutError: Connect Timeout Error (attempted address: 172.31.2.4:8080, timeout: 10000ms)
+  	at onConnectTimeout (/home/shubh/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/node_modules/undici/lib/core/connect.js:237:24)
+  	at Immediate._onImmediate (/home/shubh/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/node_modules/undici/lib/core/connect.js:206:11)
+  	at process.processImmediate (node:internal/timers:483:21)
+2025-04-20 22:22:53.535 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-20 22:22:53.535 [error] TypeError: fetch failed
+	at node:internal/deps/undici/undici:13502:13
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async hM._fetch (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:778:25942)
+	at async lT.fetchCopilotToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:50795)
+	at async lT.authFromGitHubToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:48932)
+	at async lT._auth (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:54615)
+  ConnectTimeoutError: Connect Timeout Error (attempted address: 172.31.2.4:8080, timeout: 10000ms)
+  	at onConnectTimeout (/home/shubh/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/node_modules/undici/lib/core/connect.js:237:24)
+  	at Immediate._onImmediate (/home/shubh/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/node_modules/undici/lib/core/connect.js:206:11)
+  	at process.processImmediate (node:internal/timers:483:21)
+2025-04-20 22:37:53.895 [info] Logged in as NSVPavan
+2025-04-20 22:37:55.060 [info] Got Copilot token for NSVPavan
+2025-04-20 22:37:55.520 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-20 22:37:55.520 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-04-20 22:37:55.524 [error] Error: command 'github.copilot.chat.debug.showElements' already exists
+	at vw.registerCommand (file:///home/shubh/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/out/vs/workbench/api/node/extensionHostProcess.js:111:40197)
+	at Object.registerCommand (file:///home/shubh/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/out/vs/workbench/api/node/extensionHostProcess.js:173:29591)
+	at new cGe (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:825:1153)
+	at new E3 (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:821:2400)
+	at r._createInstance (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:413:1990)
+	at r.createInstance (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:413:1430)
+	at new sY (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:821:1344)
+	at r._createInstance (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:413:1990)
+	at r.createInstance (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:413:1430)
+	at create (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:423:1691)
+	at r.invokeFunction (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:413:941)
+	at new $b (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:423:1825)
+	at r._createInstance (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:413:1990)
+	at r.createInstance (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:413:1430)
+	at set activated [as activated] (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:1381:6546)
+	at set enabled [as enabled] (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:1381:5955)
+	at DG.value (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:1381:11372)
+	at nt._deliver (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:408:2934)
+	at nt._deliverQueue (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:408:3023)
+	at nt.fire (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:408:3357)
+	at U5._handleAuthChangeEvent (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:423:4952)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5): Error while loading contribution: Error: command 'github.copilot.chat.debug.showElements' already exists
+2025-04-20 22:37:56.230 [info] Fetched model metadata in 1162ms 8c8140c8-e0c6-48a2-b219-3cb517f86963
+2025-04-20 22:52:57.720 [info] Fetched model metadata in 1088ms dc4afc6d-4b60-4009-bc92-737386ba2600
+2025-04-20 23:07:58.184 [info] Logged in as NSVPavan
+2025-04-20 23:07:59.274 [info] Got Copilot token for NSVPavan
+2025-04-20 23:07:59.663 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-20 23:08:00.426 [info] Fetched model metadata in 1147ms ca04f60c-f4ef-47d9-9ff9-0855c6f2eab5
+2025-04-21 11:49:38.247 [info] Logged in as NSVPavan
+2025-04-21 11:49:39.526 [info] Got Copilot token for NSVPavan
+2025-04-21 12:01:38.236 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-21 12:19:38.244 [info] Logged in as NSVPavan
+2025-04-21 12:19:39.419 [info] Got Copilot token for NSVPavan
+2025-04-21 12:31:38.241 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-21 12:49:38.251 [info] Logged in as NSVPavan
+2025-04-21 12:49:39.501 [info] Got Copilot token for NSVPavan
+2025-04-21 13:01:38.247 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-21 13:19:38.243 [info] Logged in as NSVPavan
+2025-04-21 13:19:39.428 [info] Got Copilot token for NSVPavan
+2025-04-21 13:33:29.722 [info] copilot token chat_enabled: true, sku: free_limited_copilot

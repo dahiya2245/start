@@ -1,0 +1,120 @@
+2025-04-20 11:22:06.699 [info] Can't use the Electron fetcher in this environment.
+2025-04-20 11:22:06.699 [info] Using the Node fetch fetcher.
+2025-04-20 11:22:06.699 [info] Initializing Git extension service.
+2025-04-20 11:22:06.699 [info] Successfully activated the vscode.git extension.
+2025-04-20 11:22:06.699 [info] Enablement state of the vscode.git extension: true.
+2025-04-20 11:22:06.699 [info] Successfully registered Git commit message provider.
+2025-04-20 11:22:07.543 [info] Logged in as NSVPavan
+2025-04-20 11:22:08.837 [info] Got Copilot token for NSVPavan
+2025-04-20 11:22:09.245 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-20 11:22:09.245 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-04-20 11:22:09.259 [info] Registering default platform agent...
+2025-04-20 11:22:10.169 [info] Fetched model metadata in 1321ms d7cdec84-698c-49f2-ac75-c12c48fc1ba7
+2025-04-20 11:22:10.330 [info] activationBlocker from 'languageModelAccess' took for 2815ms
+2025-04-20 14:24:47.781 [info] Logged in as NSVPavan
+2025-04-20 14:24:48.935 [info] Got Copilot token for NSVPavan
+2025-04-20 14:24:49.240 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-20 14:54:49.801 [info] Logged in as NSVPavan
+2025-04-20 14:54:49.894 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-20 14:54:49.894 [error] TypeError: fetch failed
+	at node:internal/deps/undici/undici:13502:13
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async hM._fetch (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:778:25942)
+	at async lT.fetchCopilotToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:50795)
+	at async lT.authFromGitHubToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:48932)
+	at async lT._auth (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:54615)
+	at async lT._authShowWarnings (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:54795)
+	at async lT.getCopilotToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:54029)
+	at async U5.getCopilotToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:423:3590)
+	at async Jk._getAuthSession (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:479:3082)
+	at async Object.o [as task] (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:479:738)
+	at async kp._processQueue (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:474:3192971)
+  Error: Request was cancelled.
+  	at new DOMException (node:internal/per_context/domexception:53:5)
+  	at makeAppropriateNetworkError (node:internal/deps/undici/undici:9333:182)
+  	at httpNetworkFetch (node:internal/deps/undici/undici:11044:18)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  	at async httpNetworkOrCacheFetch (node:internal/deps/undici/undici:10919:33)
+  	at async httpFetch (node:internal/deps/undici/undici:10752:37)
+  	at async node:internal/deps/undici/undici:10514:20
+  	at async mainFetch (node:internal/deps/undici/undici:10504:20)
+    AbortError: Proxy response (307) !== 200 when HTTP Tunneling
+    	at Client.connect (/home/shubh/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/node_modules/undici/lib/dispatcher/proxy-agent.js:84:22)
+    	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 14:54:50.350 [info] Logged in as NSVPavan
+2025-04-20 14:54:50.444 [info] copilot token chat_enabled: undefined, sku: 
+2025-04-20 14:54:50.760 [info] Logged in as NSVPavan
+2025-04-20 14:54:50.848 [error] GitHub Copilot could not connect to server. Extension activation failed: "fetch failed"
+2025-04-20 14:54:50.848 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-20 14:54:50.848 [error] TypeError: fetch failed
+	at node:internal/deps/undici/undici:13502:13
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async hM._fetch (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:778:25942)
+	at async lT.fetchCopilotToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:50795)
+	at async lT.authFromGitHubToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:48932)
+	at async lT._auth (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:54615)
+  Error: Request was cancelled.
+  	at new DOMException (node:internal/per_context/domexception:53:5)
+  	at makeAppropriateNetworkError (node:internal/deps/undici/undici:9333:182)
+  	at httpNetworkFetch (node:internal/deps/undici/undici:11044:18)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  	at async httpNetworkOrCacheFetch (node:internal/deps/undici/undici:10919:33)
+  	at async httpFetch (node:internal/deps/undici/undici:10752:37)
+  	at async node:internal/deps/undici/undici:10514:20
+  	at async mainFetch (node:internal/deps/undici/undici:10504:20)
+    AbortError: Proxy response (307) !== 200 when HTTP Tunneling
+    	at Client.connect (/home/shubh/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/node_modules/undici/lib/dispatcher/proxy-agent.js:84:22)
+    	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 14:54:50.848 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-20 14:54:50.848 [error] TypeError: fetch failed
+	at node:internal/deps/undici/undici:13502:13
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async hM._fetch (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:778:25942)
+	at async lT.fetchCopilotToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:50795)
+	at async lT.authFromGitHubToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:48932)
+	at async lT._auth (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:54615)
+  Error: Request was cancelled.
+  	at new DOMException (node:internal/per_context/domexception:53:5)
+  	at makeAppropriateNetworkError (node:internal/deps/undici/undici:9333:182)
+  	at httpNetworkFetch (node:internal/deps/undici/undici:11044:18)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  	at async httpNetworkOrCacheFetch (node:internal/deps/undici/undici:10919:33)
+  	at async httpFetch (node:internal/deps/undici/undici:10752:37)
+  	at async node:internal/deps/undici/undici:10514:20
+  	at async mainFetch (node:internal/deps/undici/undici:10504:20)
+    AbortError: Proxy response (307) !== 200 when HTTP Tunneling
+    	at Client.connect (/home/shubh/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/node_modules/undici/lib/dispatcher/proxy-agent.js:84:22)
+    	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 16:15:13.528 [info] Logged in as NSVPavan
+2025-04-20 16:15:14.709 [info] Got Copilot token for NSVPavan
+2025-04-20 16:27:13.556 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-20 16:27:13.556 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-04-20 16:27:13.564 [error] Error: command 'github.copilot.chat.debug.showElements' already exists
+	at vw.registerCommand (file:///home/shubh/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/out/vs/workbench/api/node/extensionHostProcess.js:111:40197)
+	at Object.registerCommand (file:///home/shubh/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/out/vs/workbench/api/node/extensionHostProcess.js:173:29591)
+	at new cGe (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:825:1153)
+	at new E3 (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:821:2400)
+	at r._createInstance (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:413:1990)
+	at r.createInstance (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:413:1430)
+	at new sY (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:821:1344)
+	at r._createInstance (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:413:1990)
+	at r.createInstance (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:413:1430)
+	at create (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:423:1691)
+	at r.invokeFunction (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:413:941)
+	at new $b (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:423:1825)
+	at r._createInstance (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:413:1990)
+	at r.createInstance (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:413:1430)
+	at set activated [as activated] (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:1381:6546)
+	at set enabled [as enabled] (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:1381:5955)
+	at DG.value (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:1381:11372)
+	at nt._deliver (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:408:2934)
+	at nt._deliverQueue (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:408:3023)
+	at nt.fire (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:408:3357)
+	at U5._handleAuthChangeEvent (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:423:4952)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5): Error while loading contribution: Error: command 'github.copilot.chat.debug.showElements' already exists
+2025-04-20 16:45:13.528 [info] Logged in as NSVPavan
+2025-04-20 16:45:14.742 [info] Got Copilot token for NSVPavan
+2025-04-20 16:57:13.528 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-20 17:15:13.530 [info] Logged in as NSVPavan
+2025-04-20 17:15:14.800 [info] Got Copilot token for NSVPavan
+                                                                                           

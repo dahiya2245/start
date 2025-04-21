@@ -1,0 +1,28 @@
+2025-04-14 13:52:47.104 [info] Can't use the Electron fetcher in this environment.
+2025-04-14 13:52:47.104 [info] Using the Node fetch fetcher.
+2025-04-14 13:52:47.104 [info] Initializing Git extension service.
+2025-04-14 13:52:47.104 [info] Successfully activated the vscode.git extension.
+2025-04-14 13:52:47.104 [info] Enablement state of the vscode.git extension: true.
+2025-04-14 13:52:47.104 [info] Successfully registered Git commit message provider.
+2025-04-14 13:52:47.589 [info] Logged in as NSVPavan
+2025-04-14 13:52:49.426 [info] Got Copilot token for NSVPavan
+2025-04-14 13:52:49.776 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-14 13:52:49.777 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-04-14 13:52:49.793 [info] Registering default platform agent...
+2025-04-14 13:52:50.820 [info] Fetched model metadata in 1385ms 8cec6875-f7aa-4c2f-8a26-0491afa427a2
+2025-04-14 13:52:51.010 [info] activationBlocker from 'languageModelAccess' took for 3016ms
+2025-04-14 14:22:52.189 [info] Logged in as NSVPavan
+2025-04-14 14:22:53.389 [info] Got Copilot token for NSVPavan
+2025-04-14 14:22:53.698 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-14 14:51:48.269 [info] Logged in as NSVPavan
+2025-04-14 14:51:49.540 [info] Got Copilot token for NSVPavan
+2025-04-14 14:51:49.848 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-14 16:28:08.165 [info] Logged in as NSVPavan
+2025-04-14 16:28:09.400 [info] Got Copilot token for NSVPavan
+2025-04-14 16:28:09.724 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-14 16:58:10.333 [info] Logged in as NSVPavan
+2025-04-14 16:58:11.826 [info] Got Copilot token for NSVPavan
+2025-04-14 16:58:12.193 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-14 18:02:01.655 [info] Logged in as NSVPavan
+2025-04-14 18:02:03.015 [info] Got Copilot token for NSVPavan
+2025-04-14 18:02:03.371 [info] copilot token chat_enabled: true, sku: free_limited_copilot

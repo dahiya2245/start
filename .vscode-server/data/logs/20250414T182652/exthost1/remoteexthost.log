@@ -1,0 +1,13 @@
+2025-04-14 18:26:54.484 [info] Extension host with pid 26820 started
+2025-04-14 18:26:54.508 [info] Lock '/home/shubh/.vscode-server/data/User/workspaceStorage/5867e216392f7bb82302c6a60638c213/vscode.lock': Lock acquired.
+2025-04-14 18:26:54.611 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-14 18:26:54.801 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-14 18:26:54.861 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-14 18:26:54.861 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-14 18:26:55.391 [info] Eager extensions activated
+2025-04-14 18:26:55.391 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-14 18:26:55.392 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-14 18:26:55.399 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-04-14 18:27:02.774 [info] Extension host terminating: received terminate message from renderer
+2025-04-14 18:27:02.774 [info] Lock '/home/shubh/.vscode-server/data/User/workspaceStorage/5867e216392f7bb82302c6a60638c213/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-04-14 18:27:02.806 [info] Extension host with pid 26820 exiting with code 0

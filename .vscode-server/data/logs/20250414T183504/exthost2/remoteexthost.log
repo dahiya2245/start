@@ -1,0 +1,17 @@
+2025-04-14 18:35:23.038 [info] Extension host with pid 1520 started
+2025-04-14 18:35:23.052 [info] Lock '/home/shubh/.vscode-server/data/User/workspaceStorage/c3f9d7df3a5ffad690328fa4a85d9cd1/vscode.lock': Lock acquired.
+2025-04-14 18:35:23.176 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-14 18:35:23.239 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-14 18:35:23.257 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-14 18:35:23.257 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-14 18:35:23.437 [info] Eager extensions activated
+2025-04-14 18:35:23.437 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-14 18:35:23.437 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-14 18:35:23.438 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-04-14 18:35:26.534 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-04-14 18:35:26.534 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-04-14 18:35:26.534 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-04-14 18:35:26.535 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-04-14 18:35:28.444 [info] Extension host terminating: received terminate message from renderer
+2025-04-14 18:35:28.444 [info] Lock '/home/shubh/.vscode-server/data/User/workspaceStorage/c3f9d7df3a5ffad690328fa4a85d9cd1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-04-14 18:35:28.490 [info] Extension host with pid 1520 exiting with code 0

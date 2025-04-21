@@ -1,0 +1,21 @@
+2025-04-20 18:53:43.991 [info] Can't use the Electron fetcher in this environment.
+2025-04-20 18:53:43.991 [info] Using the Node fetch fetcher.
+2025-04-20 18:53:43.991 [info] Initializing Git extension service.
+2025-04-20 18:53:43.991 [info] Successfully activated the vscode.git extension.
+2025-04-20 18:53:43.991 [info] Enablement state of the vscode.git extension: true.
+2025-04-20 18:53:43.991 [info] Successfully registered Git commit message provider.
+2025-04-20 18:53:44.788 [info] Logged in as NSVPavan
+2025-04-20 18:53:45.948 [info] Got Copilot token for NSVPavan
+2025-04-20 18:53:46.310 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-20 18:53:46.311 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-04-20 18:53:46.323 [info] Registering default platform agent...
+2025-04-20 18:53:47.242 [info] Fetched model metadata in 1288ms b2776c60-45fa-4105-b847-06792c9c4aad
+2025-04-20 18:53:47.373 [info] activationBlocker from 'languageModelAccess' took for 2683ms
+2025-04-20 19:23:48.410 [info] Logged in as NSVPavan
+2025-04-20 19:23:49.573 [info] Got Copilot token for NSVPavan
+2025-04-20 19:23:49.917 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-20 19:23:50.632 [info] Fetched model metadata in 1052ms d35c26d3-615e-447a-b92f-e2b519d7467a
+2025-04-20 19:38:52.222 [info] Fetched model metadata in 1114ms aed7f0fb-3859-47cc-8d31-c80a1c5ff6a4
+2025-04-20 19:53:52.589 [info] Logged in as NSVPavan
+2025-04-20 19:53:53.725 [info] Got Copilot token for NSVPavan
+2025-04-20 19:53:54.038 [info] copilot token chat_enabled: true, sku: free_limited_copilot

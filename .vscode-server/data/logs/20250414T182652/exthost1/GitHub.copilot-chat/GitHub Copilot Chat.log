@@ -1,0 +1,68 @@
+2025-04-14 18:26:56.751 [info] Can't use the Electron fetcher in this environment.
+2025-04-14 18:26:56.751 [info] Using the Node fetch fetcher.
+2025-04-14 18:26:56.751 [info] Initializing Git extension service.
+2025-04-14 18:26:56.751 [info] Successfully activated the vscode.git extension.
+2025-04-14 18:26:56.751 [info] Enablement state of the vscode.git extension: true.
+2025-04-14 18:26:56.751 [info] Successfully registered Git commit message provider.
+2025-04-14 18:26:57.472 [info] Logged in as NSVPavan
+2025-04-14 18:26:57.644 [error] TypeError: fetch failed
+	at node:internal/deps/undici/undici:13502:13
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async KM._fetch (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.3/dist/extension.js:778:25942)
+	at async gT.fetchCopilotToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.3/dist/extension.js:480:50795)
+	at async gT.authFromGitHubToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.3/dist/extension.js:480:48932)
+	at async gT._auth (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.3/dist/extension.js:480:54615)
+  Error: Request was cancelled.
+  	at new DOMException (node:internal/per_context/domexception:53:5)
+  	at makeAppropriateNetworkError (node:internal/deps/undici/undici:9333:182)
+  	at httpNetworkFetch (node:internal/deps/undici/undici:11044:18)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  	at async httpNetworkOrCacheFetch (node:internal/deps/undici/undici:10919:33)
+  	at async httpFetch (node:internal/deps/undici/undici:10752:37)
+  	at async node:internal/deps/undici/undici:10514:20
+  	at async mainFetch (node:internal/deps/undici/undici:10504:20)
+    AbortError: Proxy response (307) !== 200 when HTTP Tunneling
+    	at Client.connect (/home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/node_modules/undici/lib/dispatcher/proxy-agent.js:84:22)
+    	at process.processTicksAndRejections (node:internal/process/task_queues:95:5): Failed to get copilot token
+2025-04-14 18:26:57.644 [error] GitHub Copilot could not connect to server. Extension activation failed: "fetch failed"
+2025-04-14 18:26:57.644 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-14 18:26:57.644 [error] TypeError: fetch failed
+	at node:internal/deps/undici/undici:13502:13
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async KM._fetch (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.3/dist/extension.js:778:25942)
+	at async gT.fetchCopilotToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.3/dist/extension.js:480:50795)
+	at async gT.authFromGitHubToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.3/dist/extension.js:480:48932)
+	at async gT._auth (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.3/dist/extension.js:480:54615)
+  Error: Request was cancelled.
+  	at new DOMException (node:internal/per_context/domexception:53:5)
+  	at makeAppropriateNetworkError (node:internal/deps/undici/undici:9333:182)
+  	at httpNetworkFetch (node:internal/deps/undici/undici:11044:18)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  	at async httpNetworkOrCacheFetch (node:internal/deps/undici/undici:10919:33)
+  	at async httpFetch (node:internal/deps/undici/undici:10752:37)
+  	at async node:internal/deps/undici/undici:10514:20
+  	at async mainFetch (node:internal/deps/undici/undici:10504:20)
+    AbortError: Proxy response (307) !== 200 when HTTP Tunneling
+    	at Client.connect (/home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/node_modules/undici/lib/dispatcher/proxy-agent.js:84:22)
+    	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-14 18:26:57.644 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-14 18:26:57.644 [error] TypeError: fetch failed
+	at node:internal/deps/undici/undici:13502:13
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async KM._fetch (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.3/dist/extension.js:778:25942)
+	at async gT.fetchCopilotToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.3/dist/extension.js:480:50795)
+	at async gT.authFromGitHubToken (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.3/dist/extension.js:480:48932)
+	at async gT._auth (/home/shubh/.vscode-server/extensions/github.copilot-chat-0.26.3/dist/extension.js:480:54615)
+  Error: Request was cancelled.
+  	at new DOMException (node:internal/per_context/domexception:53:5)
+  	at makeAppropriateNetworkError (node:internal/deps/undici/undici:9333:182)
+  	at httpNetworkFetch (node:internal/deps/undici/undici:11044:18)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  	at async httpNetworkOrCacheFetch (node:internal/deps/undici/undici:10919:33)
+  	at async httpFetch (node:internal/deps/undici/undici:10752:37)
+  	at async node:internal/deps/undici/undici:10514:20
+  	at async mainFetch (node:internal/deps/undici/undici:10504:20)
+    AbortError: Proxy response (307) !== 200 when HTTP Tunneling
+    	at Client.connect (/home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/node_modules/undici/lib/dispatcher/proxy-agent.js:84:22)
+    	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-14 18:26:57.645 [info] activationBlocker from 'languageModelAccess' took for 374ms

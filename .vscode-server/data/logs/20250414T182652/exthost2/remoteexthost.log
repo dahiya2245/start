@@ -1,0 +1,74 @@
+2025-04-14 18:27:05.837 [info] Extension host with pid 27359 started
+2025-04-14 18:27:05.855 [info] Lock '/home/shubh/.vscode-server/data/User/workspaceStorage/482880d224fbdccbf0353c333468ff9c/vscode.lock': Lock acquired.
+2025-04-14 18:27:05.954 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-14 18:27:06.091 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-14 18:27:06.098 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-04-14 18:27:06.199 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-14 18:27:06.199 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-14 18:27:06.397 [info] Eager extensions activated
+2025-04-14 18:27:06.397 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-14 18:27:06.398 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-14 18:27:06.399 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-04-14 18:27:08.058 [info] Extension host terminating: received terminate message from renderer
+2025-04-14 18:27:08.059 [info] Lock '/home/shubh/.vscode-server/data/User/workspaceStorage/482880d224fbdccbf0353c333468ff9c/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-04-14 18:27:08.099 [error] Canceled: Canceled
+	at Vc (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:7:1218)
+	at file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:157760
+	at Array.forEach (<anonymous>)
+	at i4.dispose (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:157700)
+	at vV.terminate (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:115:10084)
+	at oP.terminate (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:116:1434)
+	at es (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:197:5701)
+	at Ah.value (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:197:3862)
+	at P.B (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at P.fire (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+	at Jn.fire (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:9459)
+	at Km.A (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:12575)
+	at Ah.value (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:10995)
+	at P.B (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at P.fire (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+	at M6.acceptChunk (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:7942)
+	at Ah.value (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:7228)
+	at P.B (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at P.fire (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+	at AT.z (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:21747)
+	at AT.acceptFrame (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:21553)
+	at DT.n (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:20080)
+	at file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:17312
+	at Socket.t (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:15252)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:561:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+	at Readable.push (node:internal/streams/readable:392:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-04-14 18:27:08.099 [error] Canceled: Canceled
+	at Vc (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:7:1218)
+	at file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:157760
+	at Array.forEach (<anonymous>)
+	at i4.dispose (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:157700)
+	at vV.terminate (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:115:10084)
+	at oP.terminate (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:116:1434)
+	at es (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:197:5701)
+	at Ah.value (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:197:3862)
+	at P.B (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at P.fire (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+	at Jn.fire (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:9459)
+	at Km.A (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:12575)
+	at Ah.value (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:10995)
+	at P.B (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at P.fire (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+	at M6.acceptChunk (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:7942)
+	at Ah.value (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:7228)
+	at P.B (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at P.fire (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+	at AT.z (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:21747)
+	at AT.acceptFrame (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:21553)
+	at DT.n (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:20080)
+	at file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:17312
+	at Socket.t (file:///home/shubh/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/out/vs/workbench/api/node/extensionHostProcess.js:29:15252)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:561:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+	at Readable.push (node:internal/streams/readable:392:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-04-14 18:27:08.099 [info] Extension host with pid 27359 exiting with code 0

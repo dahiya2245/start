@@ -1,0 +1,313 @@
+0 verbose cli /home/shubh/.nvm/versions/node/v22.14.0/bin/node /home/shubh/.nvm/versions/node/v22.14.0/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:/home/shubh/.nvm/versions/node/v22.14.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/shubh/.cache/typescript/5.8/.npmrc
+5 silly config load:file:/home/shubh/.npmrc
+6 silly config load:file:/home/shubh/.nvm/versions/node/v22.14.0/etc/npmrc
+7 verbose title npm install @types/cors@ts5.8
+8 verbose argv "install" "--ignore-scripts" "@types/cors@ts5.8" "--save-dev" "--user-agent" "typesInstaller/5.8.2"
+9 verbose logfile logs-max:10 dir:/home/shubh/.npm/_logs/2025-04-20T22_46_19_726Z-
+10 verbose logfile /home/shubh/.npm/_logs/2025-04-20T22_46_19_726Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+14 silly packumentCache corgi:https://registry.npmjs.org/@types%2fcors cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/@types%2fcors 246ms (cache miss)
+16 silly packumentCache corgi:https://registry.npmjs.org/@types%2fcors set size:undefined disposed:false
+17 silly idealTree buildDeps
+18 silly fetch manifest @types/cors@2.8.17
+19 silly packumentCache full:https://registry.npmjs.org/@types%2fcors cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@types%2fcors 65ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/@types%2fcors set size:undefined disposed:false
+22 silly placeDep ROOT @types/cors@2.8.17 OK for:  want: 2.8.17
+23 silly reify moves {}
+24 silly audit bulk request {
+24 silly audit   '@babel/helper-string-parser': [ '7.25.9' ],
+24 silly audit   '@babel/helper-validator-identifier': [ '7.25.9' ],
+24 silly audit   '@babel/parser': [ '7.27.0' ],
+24 silly audit   '@babel/types': [ '7.27.0' ],
+24 silly audit   '@ioredis/commands': [ '1.2.0' ],
+24 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.40.0' ],
+24 silly audit   '@rollup/rollup-android-arm64': [ '4.40.0' ],
+24 silly audit   '@rollup/rollup-darwin-arm64': [ '4.40.0' ],
+24 silly audit   '@rollup/rollup-darwin-x64': [ '4.40.0' ],
+24 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.40.0' ],
+24 silly audit   '@rollup/rollup-freebsd-x64': [ '4.40.0' ],
+24 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.40.0' ],
+24 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.40.0' ],
+24 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.40.0' ],
+24 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.40.0' ],
+24 silly audit   '@rollup/rollup-linux-loongarch64-gnu': [ '4.40.0' ],
+24 silly audit   '@rollup/rollup-linux-powerpc64le-gnu': [ '4.40.0' ],
+24 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.40.0' ],
+24 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.40.0' ],
+24 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.40.0' ],
+24 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.40.0' ],
+24 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.40.0' ],
+24 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.40.0' ],
+24 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.40.0' ],
+24 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.40.0' ],
+24 silly audit   '@types/accepts': [ '1.3.7' ],
+24 silly audit   '@types/babel__core': [ '7.20.5' ],
+24 silly audit   '@types/babel__generator': [ '7.27.0' ],
+24 silly audit   '@types/babel__preset-env': [ '7.10.0' ],
+24 silly audit   '@types/babel__template': [ '7.4.4' ],
+24 silly audit   '@types/babel__traverse': [ '7.20.7' ],
+24 silly audit   '@types/body-parser': [ '1.19.5' ],
+24 silly audit   '@types/connect': [ '3.4.38' ],
+24 silly audit   '@types/connect-redis': [ '0.0.23' ],
+24 silly audit   '@types/content-disposition': [ '0.5.8' ],
+24 silly audit   '@types/content-type': [ '1.1.8' ],
+24 silly audit   '@types/cookie-parser': [ '1.4.8' ],
+24 silly audit   '@types/cookie-session': [ '2.0.49' ],
+24 silly audit   '@types/cookie-signature': [ '1.1.2' ],
+24 silly audit   '@types/cookiejar': [ '2.1.5' ],
+24 silly audit   '@types/debug': [ '4.1.12' ],
+24 silly audit   '@types/deep-equal': [ '1.0.4' ],
+24 silly audit   '@types/depd': [ '1.1.37' ],
+24 silly audit   '@types/ejs': [ '3.1.5' ],
+24 silly audit   '@types/encodeurl': [ '1.0.2' ],
+24 silly audit   '@types/escape-html': [ '1.0.4' ],
+24 silly audit   '@types/eslint': [ '9.6.1' ],
+24 silly audit   '@types/eslint-plugin-markdown': [ '2.0.2' ],
+24 silly audit   '@types/estree': [ '1.0.7' ],
+24 silly audit   '@types/etag': [ '1.8.3' ],
+24 silly audit   '@types/expect': [ '1.20.4' ],
+24 silly audit   '@types/express': [ '5.0.1' ],
+24 silly audit   '@types/express-serve-static-core': [ '5.0.6' ],
+24 silly audit   '@types/express-session': [ '1.18.1' ],
+24 silly audit   '@types/finalhandler': [ '1.2.3' ],
+24 silly audit   '@types/follow-redirects': [ '1.14.4' ],
+24 silly audit   '@types/formidable': [ '3.4.5' ],
+24 silly audit   '@types/fresh': [ '0.5.2' ],
+24 silly audit   '@types/fs-extra': [ '11.0.4' ],
+24 silly audit   '@types/glob-stream': [ '8.0.2' ],
+24 silly audit   '@types/gulp': [ '4.0.17' ],
+24 silly audit   '@types/hbs': [ '4.0.4' ],
+24 silly audit   '@types/http-errors': [ '2.0.4' ],
+24 silly audit   '@types/jasmine': [ '5.1.7' ],
+24 silly audit   '@types/json-schema': [ '7.0.15' ],
+24 silly audit   '@types/jsonfile': [ '6.1.4' ],
+24 silly audit   '@types/karma': [ '6.3.9' ],
+24 silly audit   '@types/karma-chrome-launcher': [ '3.1.4' ],
+24 silly audit   '@types/karma-firefox-launcher': [ '2.1.4' ],
+24 silly audit   '@types/karma-jasmine': [ '4.0.5' ],
+24 silly audit   '@types/karma-rollup-preprocessor': [ '7.0.3' ],
+24 silly audit   '@types/keygrip': [ '1.0.6' ],
+24 silly audit   '@types/memoizee': [ '0.4.12' ],
+24 silly audit   '@types/merge-descriptors': [ '1.0.3' ],
+24 silly audit   '@types/method-override': [ '3.0.0' ],
+24 silly audit   '@types/methods': [ '1.1.4' ],
+24 silly audit   '@types/mime': [ '1.3.5' ],
+24 silly audit   '@types/mime-types': [ '2.1.4' ],
+24 silly audit   '@types/minimist': [ '1.2.5' ],
+24 silly audit   '@types/mocha': [ '10.0.10' ],
+24 silly audit   '@types/morgan': [ '1.9.9' ],
+24 silly audit   '@types/ms': [ '2.1.0' ],
+24 silly audit   '@types/multer': [ '1.4.12' ],
+24 silly audit   '@types/negotiator': [ '0.6.3' ],
+24 silly audit   '@types/node': [ '22.14.0' ],
+24 silly audit   '@types/on-finished': [ '2.3.4' ],
+24 silly audit   '@types/once': [ '1.4.5' ],
+24 silly audit   '@types/parseurl': [ '1.3.3' ],
+24 silly audit   '@types/picomatch': [ '4.0.0' ],
+24 silly audit   '@types/proxy-addr': [ '2.0.3' ],
+24 silly audit   '@types/proxy-from-env': [ '1.0.4' ],
+24 silly audit   '@types/qs': [ '6.9.18' ],
+24 silly audit   '@types/range-parser': [ '1.2.7' ],
+24 silly audit   '@types/redis': [ '2.8.32' ],
+24 silly audit   '@types/rollup-plugin-auto-external': [ '2.0.5' ],
+24 silly audit   '@types/send': [ '0.17.4' ],
+24 silly audit   '@types/serve-static': [ '1.15.7' ],
+24 silly audit   '@types/sinon': [ '17.0.4' ],
+24 silly audit   '@types/sinonjs__fake-timers': [ '8.1.5' ],
+24 silly audit   '@types/statuses': [ '2.0.5' ],
+24 silly audit   '@types/stream-throttle': [ '0.1.4' ],
+24 silly audit   '@types/streamx': [ '2.9.5' ],
+24 silly audit   '@types/superagent': [ '8.1.9' ],
+24 silly audit   '@types/supertest': [ '6.0.3' ],
+24 silly audit   '@types/type-is': [ '1.6.7' ],
+24 silly audit   '@types/undertaker': [ '1.2.11' ],
+24 silly audit   '@types/undertaker-registry': [ '1.0.4' ],
+24 silly audit   '@types/unist': [ '3.0.3' ],
+24 silly audit   '@types/vary': [ '1.1.3' ],
+24 silly audit   '@types/vhost': [ '3.0.9' ],
+24 silly audit   '@types/vinyl': [ '2.0.12' ],
+24 silly audit   '@types/vinyl-fs': [ '3.0.5' ],
+24 silly audit   anymatch: [ '3.1.3' ],
+24 silly audit   'async-done': [ '1.3.2' ],
+24 silly audit   asynckit: [ '0.4.0' ],
+24 silly audit   'binary-extensions': [ '2.3.0' ],
+24 silly audit   braces: [ '3.0.3' ],
+24 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+24 silly audit   chokidar: [ '3.6.0' ],
+24 silly audit   'cluster-key-slot': [ '1.1.2' ],
+24 silly audit   'combined-stream': [ '1.0.8' ],
+24 silly audit   'date-format': [ '4.0.14' ],
+24 silly audit   debug: [ '4.4.0' ],
+24 silly audit   'delayed-stream': [ '1.0.0' ],
+24 silly audit   denque: [ '2.1.0' ],
+24 silly audit   'dunder-proto': [ '1.0.1' ],
+24 silly audit   'end-of-stream': [ '1.4.4' ],
+24 silly audit   'es-define-property': [ '1.0.1' ],
+24 silly audit   'es-errors': [ '1.3.0' ],
+24 silly audit   'es-object-atoms': [ '1.1.1' ],
+24 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+24 silly audit   'fill-range': [ '7.1.1' ],
+24 silly audit   flatted: [ '3.3.3' ],
+24 silly audit   'form-data': [ '4.0.2' ],
+24 silly audit   'fs-extra': [ '8.1.0' ],
+24 silly audit   fsevents: [ '2.3.3' ],
+24 silly audit   'function-bind': [ '1.1.2' ],
+24 silly audit   'get-intrinsic': [ '1.3.0' ],
+24 silly audit   'get-proto': [ '1.0.1' ],
+24 silly audit   'glob-parent': [ '5.1.2' ],
+24 silly audit   gopd: [ '1.2.0' ],
+24 silly audit   'graceful-fs': [ '4.2.11' ],
+24 silly audit   handlebars: [ '4.7.8' ],
+24 silly audit   'has-symbols': [ '1.1.0' ],
+24 silly audit   'has-tostringtag': [ '1.0.2' ],
+24 silly audit   hasown: [ '2.0.2' ],
+24 silly audit   ioredis: [ '5.6.1' ],
+24 silly audit   'is-binary-path': [ '2.1.0' ],
+24 silly audit   'is-extglob': [ '2.1.1' ],
+24 silly audit   'is-glob': [ '4.0.3' ],
+24 silly audit   'is-number': [ '7.0.0' ],
+24 silly audit   jsonfile: [ '4.0.0' ],
+24 silly audit   'lodash.defaults': [ '4.2.0' ],
+24 silly audit   'lodash.isarguments': [ '3.1.0' ],
+24 silly audit   log4js: [ '6.9.1' ],
+24 silly audit   'math-intrinsics': [ '1.1.0' ],
+24 silly audit   'mime-db': [ '1.52.0' ],
+24 silly audit   'mime-types': [ '2.1.35' ],
+24 silly audit   minimist: [ '1.2.8' ],
+24 silly audit   ms: [ '2.1.3' ],
+24 silly audit   'neo-async': [ '2.6.2' ],
+24 silly audit   'normalize-path': [ '3.0.0' ],
+24 silly audit   once: [ '1.4.0' ],
+24 silly audit   picomatch: [ '2.3.1' ],
+24 silly audit   'process-nextick-args': [ '2.0.1' ],
+24 silly audit   readdirp: [ '3.6.0' ],
+24 silly audit   'redis-errors': [ '1.2.0' ],
+24 silly audit   'redis-parser': [ '3.0.0' ],
+24 silly audit   rfdc: [ '1.4.1' ],
+24 silly audit   rollup: [ '4.40.0' ],
+24 silly audit   'source-map': [ '0.6.1' ],
+24 silly audit   'standard-as-callback': [ '2.1.0' ],
+24 silly audit   'stream-exhaust': [ '1.0.2' ],
+24 silly audit   streamroller: [ '3.1.5' ],
+24 silly audit   'to-regex-range': [ '5.0.1' ],
+24 silly audit   'types-registry': [ '0.1.717' ],
+24 silly audit   'uglify-js': [ '3.19.3' ],
+24 silly audit   'undici-types': [ '6.21.0' ],
+24 silly audit   universalify: [ '0.1.2' ],
+24 silly audit   wordwrap: [ '1.0.0' ],
+24 silly audit   wrappy: [ '1.0.2' ],
+24 silly audit   '@types/cors': [ '2.8.17' ]
+24 silly audit }
+25 verbose reify failed optional dependency /home/shubh/.cache/typescript/5.8/node_modules/fsevents
+26 silly reify mark deleted [ '/home/shubh/.cache/typescript/5.8/node_modules/fsevents' ]
+27 verbose reify failed optional dependency /home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-win32-x64-msvc
+28 silly reify mark deleted [
+28 silly reify   '/home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-win32-x64-msvc'
+28 silly reify ]
+29 verbose reify failed optional dependency /home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-win32-ia32-msvc
+30 silly reify mark deleted [
+30 silly reify   '/home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-win32-ia32-msvc'
+30 silly reify ]
+31 verbose reify failed optional dependency /home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-win32-arm64-msvc
+32 silly reify mark deleted [
+32 silly reify   '/home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-win32-arm64-msvc'
+32 silly reify ]
+33 verbose reify failed optional dependency /home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-linux-s390x-gnu
+34 silly reify mark deleted [
+34 silly reify   '/home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-linux-s390x-gnu'
+34 silly reify ]
+35 verbose reify failed optional dependency /home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-linux-riscv64-musl
+36 silly reify mark deleted [
+36 silly reify   '/home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-linux-riscv64-musl'
+36 silly reify ]
+37 verbose reify failed optional dependency /home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-linux-riscv64-gnu
+38 silly reify mark deleted [
+38 silly reify   '/home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-linux-riscv64-gnu'
+38 silly reify ]
+39 verbose reify failed optional dependency /home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-linux-powerpc64le-gnu
+40 silly reify mark deleted [
+40 silly reify   '/home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-linux-powerpc64le-gnu'
+40 silly reify ]
+41 verbose reify failed optional dependency /home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-linux-loongarch64-gnu
+42 silly reify mark deleted [
+42 silly reify   '/home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-linux-loongarch64-gnu'
+42 silly reify ]
+43 verbose reify failed optional dependency /home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-linux-arm64-musl
+44 silly reify mark deleted [
+44 silly reify   '/home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-linux-arm64-musl'
+44 silly reify ]
+45 verbose reify failed optional dependency /home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-linux-arm64-gnu
+46 silly reify mark deleted [
+46 silly reify   '/home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-linux-arm64-gnu'
+46 silly reify ]
+47 verbose reify failed optional dependency /home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-linux-arm-musleabihf
+48 silly reify mark deleted [
+48 silly reify   '/home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-linux-arm-musleabihf'
+48 silly reify ]
+49 verbose reify failed optional dependency /home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-linux-arm-gnueabihf
+50 silly reify mark deleted [
+50 silly reify   '/home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+50 silly reify ]
+51 verbose reify failed optional dependency /home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-freebsd-x64
+52 silly reify mark deleted [
+52 silly reify   '/home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-freebsd-x64'
+52 silly reify ]
+53 verbose reify failed optional dependency /home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-freebsd-arm64
+54 silly reify mark deleted [
+54 silly reify   '/home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-freebsd-arm64'
+54 silly reify ]
+55 verbose reify failed optional dependency /home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-darwin-x64
+56 silly reify mark deleted [
+56 silly reify   '/home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-darwin-x64'
+56 silly reify ]
+57 verbose reify failed optional dependency /home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-darwin-arm64
+58 silly reify mark deleted [
+58 silly reify   '/home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-darwin-arm64'
+58 silly reify ]
+59 verbose reify failed optional dependency /home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-android-arm64
+60 silly reify mark deleted [
+60 silly reify   '/home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-android-arm64'
+60 silly reify ]
+61 verbose reify failed optional dependency /home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-android-arm-eabi
+62 silly reify mark deleted [
+62 silly reify   '/home/shubh/.cache/typescript/5.8/node_modules/@rollup/rollup-android-arm-eabi'
+62 silly reify ]
+63 http cache @types/cors@https://registry.npmjs.org/@types/cors/-/cors-2.8.17.tgz 1ms (cache hit)
+64 silly tarball no local data for @types/cors@https://registry.npmjs.org/@types/cors/-/cors-2.8.17.tgz. Extracting by manifest.
+65 http fetch GET 200 https://registry.npmjs.org/@types/cors/-/cors-2.8.17.tgz 179ms (cache miss)
+66 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 355ms
+67 silly audit report {}
+68 silly ADD node_modules/@types/cors
+69 silly ADD
+70 silly ADD
+71 silly ADD
+72 silly ADD
+73 silly ADD
+74 silly ADD
+75 silly ADD
+76 silly ADD
+77 silly ADD
+78 silly ADD
+79 silly ADD
+80 silly ADD
+81 silly ADD
+82 silly ADD
+83 silly ADD
+84 silly ADD
+85 silly ADD
+86 silly ADD
+87 silly ADD
+88 verbose cwd /home/shubh/.cache/typescript/5.8
+89 verbose os Linux 5.15.167.4-microsoft-standard-WSL2
+90 verbose node v22.14.0
+91 verbose npm  v10.9.2
+92 verbose exit 0
+93 info ok
